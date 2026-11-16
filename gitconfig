@@ -1,0 +1,11 @@
+[user]
+    name = Alaina K
+    email = alainak42@users.noreply.github.com
+[init]
+    defaultBranch = main
+[alias]
+    s = status --short --branch
+    l = log --oneline --graph --decorate -20
+[credential]
+    helper =
+    helper = !gh auth git-credential
